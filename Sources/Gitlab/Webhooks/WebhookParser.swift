@@ -8,7 +8,7 @@ public class WebhookParser {
         case "issue":
             return try JSONDecoder().decode(Webhook.Issue.self, from: data)
         default:
-            throw WebhookError.unsupported_data(kind: webhookLight.object_kind)
+            throw WebhookError.unsupportedData(kind: webhookLight.object_kind)
         }
     }
 }
