@@ -5,7 +5,7 @@ extension Webhook {
         public let id: Int
         public let title: String
         public let color: String
-        public let project_id: Int
+        public let project_id: Int?
         public let created_at: String
         public let updated_at: String
         public let template: Bool

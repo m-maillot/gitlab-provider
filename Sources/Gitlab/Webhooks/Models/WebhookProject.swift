@@ -11,7 +11,7 @@ extension Webhook {
         public let namespace: String
         public let visibility_level: Int
         public let path_with_namespace: String
-        public let default_branch: String
+        public let default_branch: String?
         public let homepage: URL
         public let url: URL
     }
